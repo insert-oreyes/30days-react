@@ -1,27 +1,9 @@
-:root {
-    --color1: #000000;
-    --color1Alt: #1D2723;
-    --color2: #ecf0f3;
-    --color3: #efe7c9;
-    --color4: #e5d07c;
-    --color5: #e49d0f;
-    --backg1: #ecf0f3;
-    --box-shadow1: .375rem 375rem 0.813rem #ffffff, 
-                .375rem 375rem 0.813rem #00000029;
-
-    --backg2: #e7aeee;
-    --backg3: radial-gradient(circle, #e7aeee84 0%, rgba(215, 233, 148, 0.452) 82%); 
-
-    --fontSize: 3rem;
-
-                
-}
 .App{
     text-align: center;
 }
 
-.appContainer {
-    background-color: var(--color1Alt);
+.appContent {
+    /* background-color: var(--color1Alt); */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -35,23 +17,15 @@
 
 }
 
+.appContent {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    min-height: 100vh;
+    padding: 16px;
+  }
+
 button {
     font-size:var(--fontSize);
 }
-
-/* html {
-    box-sizing: border-box;
-    font-size: 1.25rem;
-    font-weight: 200;
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
-
-*, *::before, *::after{
-    box-sizing: inherit
-}
-
-body {
-    margin: 0;
-}
- */

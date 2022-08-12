@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import GifList from './components/GifList'
+import ListOfGifs from './components/ListOfGifs'
 
 import { Link, Route } from 'wouter'
 
@@ -13,7 +13,7 @@ const App = () => {
         <Link to='/gif/kangaroos'>Kangaroos Gifs</Link>
         <Link to='/gif/rabbits'>Rabbits Gifs</Link>
         <Link to='/gif/quokka'>Quokka Gifs</Link>
-        <Route component={GifList} path='/gif/:keyword' />
+        <Route component={ListOfGifs} path='/gif/:keyword' />
       </section>
     </div>
   )
