@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-const Counter = () => {
+const App = () => {
   const [counter, setCounter] = useState(0)
   const [clicked, setClicked] = useState(0)
 
@@ -25,4 +25,4 @@ const Counter = () => {
   )
 }
 
-export default Counter
+export default App
