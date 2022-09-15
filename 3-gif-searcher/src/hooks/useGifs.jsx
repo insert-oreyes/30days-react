@@ -6,6 +6,7 @@ export function useGifs({ keyword } = { keyword: null }) {
   const [loading, setLoading] = useState(false)
   const { gifs, setGifs } = useContext(GifsContext)
 
+
   useEffect(
     function () {
       setLoading(true)

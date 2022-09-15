@@ -8,5 +8,6 @@ export default function SearchResults({ params }) {
 
   const { loading, gifs } = useGifs({ keyword })
 
+  console.log('params SearchResults 1:', { params })
   return <>{loading ? <Spinner /> : <ListOfGifs gifs={gifs} />}</>
 }

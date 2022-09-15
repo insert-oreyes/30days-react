@@ -72,7 +72,7 @@ const App = () => {
   const carousel = useRef()
   useEffect(() => {
     setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth)
-  }, [])
+  }, [carousel, movies])
 
   return movies?.length ? (
     <div>
